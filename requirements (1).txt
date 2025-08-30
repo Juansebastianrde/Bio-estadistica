@@ -14,3 +14,13 @@ pyarrow
 joblib
 imbalanced-learn
 category-encoders
+streamlit
+nbformat
+requests
+pandas
+matplotlib
+numpy
+plotly
+seaborn
+nbconvert
+jupyter
