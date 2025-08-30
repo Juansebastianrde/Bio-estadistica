@@ -403,4 +403,5 @@ pipe.cell_001()       # ejecutar celda 1
 pipe.run_until(5)     # o ejecutar hasta la 5
 pipe.run_all()        # o todo el pipeline
 # El estado vivo está en pipe.ns (diccionario con variables)
+""")
 
