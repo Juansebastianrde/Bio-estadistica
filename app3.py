@@ -114,7 +114,7 @@ def fetch_ipynb_from_github(url: str, token: str | None = None) -> bytes:
 
 # ===== Sidebar (opciones) =====
 st.sidebar.header("Fuente del notebook")
-DEFAULT_GH_URL = "https://github.com/Juansebastianrde/Reduccion-de-dimensionalidad/blob/main/Proyecto_ML%20(1).ipynb"
+DEFAULT_GH_URL = "https://raw.githubusercontent.com/Juansebastianrde/Bio-estadistica/main/Proyecto_ML_(1)%20(1).ipynb"
 gh_url = st.sidebar.text_input("URL de GitHub (.ipynb, blob o raw)", value=DEFAULT_GH_URL)
 gh_token = st.sidebar.text_input("Token GitHub (opcional, para repos privados)", type="password")
 uploaded = st.sidebar.file_uploader("…o sube tu .ipynb", type=["ipynb"])
